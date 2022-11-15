@@ -1,3 +1,4 @@
+#马卡龙玩图
 [rewrite_local]
 ^https?:\/\/app\.api\.versa-ai\.com\/pay\/order\/iap\/check url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/makalong.js
 

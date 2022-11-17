@@ -1,6 +1,6 @@
 [rewrite_local]
 
-# ～ 阿里云盘（2022-10-16）@ddgksf2013
+# ～ 阿里云盘（2022-10-16)
 ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/aliyunpan.js
 
 [mitm]

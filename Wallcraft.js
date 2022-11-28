@@ -1,3 +1,5 @@
+/******************************
+
 # WallCraft
 [rewrite_local]
 
@@ -6,10 +8,8 @@
 [mitm] 
 
 hostname = *.wallpaperscraft.com
-*
-*
-*/
 
+*******************************/
 
 var body = $response.body;
 var objc = JSON.parse(body);

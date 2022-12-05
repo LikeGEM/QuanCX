@@ -4,7 +4,8 @@
 
 [rewrite_local]
 
-^https:\/\/claritywallpaper\.com\/clarity\/api\/user\/update\/(userInfo|special\/queryByCatalogAll) url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/kelabizhi.js
+[rewrite_local]
+^http[s]s:\/\/claritywallpaper\.com\/clarity\/api\/picture\/date\/count url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/kelabizhi.js
 
 [mitm]
 

@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https?:/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/Pornhub.js
+^http[s]s:\/\/*\.pornhub\.com\/view_video\.php\/($|(view|video).*$) url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/Pornhub.js
 
 [mitm] 
 

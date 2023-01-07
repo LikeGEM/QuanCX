@@ -8,6 +8,6 @@
 
 [mitm] 
 
-hostname= *.ulikecam.*
+hostname= *.ulikecam.*, *faceu*
 
 ***********************************/

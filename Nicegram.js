@@ -7,7 +7,6 @@ https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-res
 hostname = restore-access.indream.app
 
 *******************************/
-
 {
   "data" : {
     "premiumAccess" : true

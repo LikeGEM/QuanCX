@@ -6,7 +6,7 @@
 使用声明：⚠️仅供参考，🈲转载与售卖！
 **************************************
 [rewrite_local]
-^https:\/\/api\.ujvnmkx\.cn\/api url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/JavDBAD.js.js
+^https:\/\/api\.ujvnmkx\.cn\/api url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/JavDBAD.js
 [mitm]
 hostname = api.ujvnmkx.cn
 *************************************/

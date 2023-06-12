@@ -33,6 +33,7 @@ function Follow(data) {
     }
     return data;
 }
+// 电报群：https://t.me/baipiao_666
 
 function Feed(aweme_list) {
     if (aweme_list && aweme_list.length > 0) {

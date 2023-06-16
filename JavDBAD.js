@@ -6,31 +6,31 @@
 使用声明：⚠️仅供参考，🈲转载与售卖！
 **************************************
 [rewrite_local]
-^https:\/\/api\.ujvnmkx\.cn\/api url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/JavDBAD.js
+^https:\/\/api\.((ujvnmkx|yijingluowangluo)\.xyz|ujvnmkx\.cn)\/api url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/JavDBAD.js
 [mitm]
-hostname = api.ujvnmkx.cn
+hostname = api.pxxgg.xyz, api.ujvnmkx.cn, api.yijingluowangluo.xyz
 *************************************/
 
 
-var body = $response.body;
-var chxm1023 = JSON.parse(body);
+var 内容 = $response.内容;
+var chxm1023 = JSON.parse(内容);
 
 const ada = '/ads';
 const adb = '/startup';
 
 //横幅广告
-if ($request.url.indexOf(ada) != -1){
-  chxm1023.data.ads = {};
+if ($request.url。indexOf(ada) != -1){
+  chxm1023.data。ads = {};
 }
 
 //公告，开屏
-if ($request.url.indexOf(adb) != -1){
-  chxm1023.data.splash_ad.enabled = false;
-  chxm1023.data.splash_ad.overtime = 0;
-  chxm1023.data.splash_ad.ad = {};
-  chxm1023.data.feedback.placeholder = "";
-  chxm1023.data.settings.UPDATE_DESCRIPTION = "";
-  chxm1023.data.settings.NOTICE = "";
+if ($request.url。indexOf(adb) != -1){
+  chxm1023.data。splash_ad。启用 = false;
+  chxm1023.data。splash_ad。overtime = 0;
+  chxm1023.data。splash_ad。ad = {};
+  chxm1023.data。feedback。placeholder = "";
+  chxm1023.data。设置。UPDATE_DESCRIPTION = "";
+  chxm1023.data。设置。NOTICE = "";
 }
 
-$done({body : JSON.stringify(chxm1023)});
+$done({内容 : JSON.stringify(chxm1023)});

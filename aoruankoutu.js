@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https:\/\/aw\.aoscdn\.com\/app\/picwish\/tasks\/app-login\/segmentation url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/aoruankoutu.js
+^https?:\/\/.*\.(aoscdn\.com|apsapp\.cn) url  script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/aoruankoutu.js
 
 [mitm] 
 

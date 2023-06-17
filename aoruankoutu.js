@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https?:\/\/.*\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/aoruankoutu.js
+^https:\/\/aw\.aoscdn\.com\/app\/picwish\/tasks\/app-login\/segmentation url script-response-body https://raw.githubusercontent.com/LikeGEM/QuanCX/main/aoruankoutu.js
 
 [mitm] 
 
@@ -37,4 +37,4 @@ var ddgksf2013 = {
     "vip_special" : 1
   }
 };
-$done({body: JSON.stringify(ddgksf2013)});
+$done({内容: JSON.stringify(ddgksf2013)});
